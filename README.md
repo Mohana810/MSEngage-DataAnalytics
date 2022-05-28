@@ -65,7 +65,7 @@ Got doubts on trends? Want to know what’s wrong and what’s right? You are at
     
  ## Quick Start
     
-  Before running the project, make sure you have all of the [required packages](https://payloadcms.com/docs/getting-started/installation).
+  Before running the project, make sure you have all of the [required packages]([https://payloadcms.com/docs/getting-started/installation](https://github.com/Mohana810/MSEngage-DataAnalytics/blob/main/DataProjectMSFT/requirements.txt)).
 
   From there, the easiest way to get the app started is is to open the terminal with project file path and run `python main.py`
 
@@ -73,7 +73,7 @@ Got doubts on trends? Want to know what’s wrong and what’s right? You are at
   
  ## *Credentials
   
-  For viewing the [*elasticsearch dashboard](https://payloadcms.com/docs/getting-started/installation) please use the following **login credentials*
+  For viewing the [*elasticsearch dashboard](https://github.com/Mohana810/MSEngage-DataAnalytics/blob/main/DataProjectMSFT/pages/findCar.py) please use the following **login credentials*
   <details>
     <summary>Click to expand</summary>
     <strong>username:</strong> elastic <br>
