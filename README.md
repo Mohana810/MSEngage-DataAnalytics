@@ -71,14 +71,20 @@ Got doubts on trends? Want to know what’s wrong and what’s right? You are at
 
   Now, Open your [localhost](http://127.0.0.1:8888/) and check out the website.
   
- ## *Credentials
+ ## *Important Instructions
   
-  For viewing the [*elasticsearch dashboard](https://github.com/Mohana810/MSEngage-DataAnalytics/blob/main/DataProjectMSFT/pages/findCar.py) please use the following **login credentials*
+  - For viewing the [*elasticsearch dashboard](https://github.com/Mohana810/MSEngage-DataAnalytics/blob/main/DataProjectMSFT/pages/findCar.py), **click on 'Login with Elasticsearch'** and please use the following **login credentials** <br> 
+  <html><img src="https://user-images.githubusercontent.com/79496726/170841683-8645441f-8929-451d-ae1e-5b59e18f572f.png", width="300px", height="400px"></html>
+
   <details>
     <summary>Click to expand</summary>
     <strong>username:</strong> elastic <br>
     <strong>password:</strong> MxsStYProC58mjehMKuOET0j
   </details>
+  
+  
+  - The warning shown in the elasticsearch dashboard is due to null fields in the available data. (*Please ignore*)
+  <html><img src="https://user-images.githubusercontent.com/79496726/170841735-33680dc8-cf81-4b3b-a76d-a9dbd5344d05.png", width="250px", height="200px"></html>
   
  ## Future scope
  
