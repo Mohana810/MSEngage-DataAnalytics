@@ -52,15 +52,18 @@ Got doubts on trends? Want to know what’s wrong and what’s right? You are at
   </details>
     
 
-  - *Pages :*
+  - **Pages :**
     Includes python files for each page in website
-  - *Assets :*
+  - **Assets :**
     All the rrequired external style sheets and images of the project
-  - *Datasets :*
-    Includes the data files(.csv and .excel) used for building tableau dashboards and elasticsearch filters
-  - *app.py :*
+  - **Datasets :**
+    Includes the data files(.csv and .excel) used for building tableau dashboards and elasticsearch filters<br>
+      - *EngageData.xlsx* - used for creating the 'Dashboard' page.
+      - *createVizTest.xlsx* - used for testing the 'Create Viz' feature.
+      - *cars_enagage_2022_simpleData.csv* - used for implementing the 'Find your car' feature.
+  - **app.py :**
     Initialisation and configuration of the dash app running with Flask server
-  - *main.py :*
+  - **main.py :**
     Indexing and mapping of all the pages together
     
  ## Quick Start
@@ -73,23 +76,25 @@ Got doubts on trends? Want to know what’s wrong and what’s right? You are at
   
  ## *Important Instructions
   
-  - For viewing the [*elasticsearch dashboard](https://github.com/Mohana810/MSEngage-DataAnalytics/blob/main/DataProjectMSFT/pages/findCar.py), **click on 'Login with Elasticsearch'** and please use the following **login credentials** <br> 
+  - For viewing the [*elasticsearch dashboard](https://github.com/Mohana810/MSEngage-DataAnalytics/blob/main/DataProjectMSFT/pages/findCar.py), **click on 'Login with Elasticsearch'** <br> 
   <html><img src="https://user-images.githubusercontent.com/79496726/170841683-8645441f-8929-451d-ae1e-5b59e18f572f.png", width="300px", height="400px"></html>
-
+  
+  
+  - And then use the following **login credentials** <br>
   <details>
     <summary>Click to expand</summary>
     <strong>username:</strong> elastic <br>
     <strong>password:</strong> MxsStYProC58mjehMKuOET0j
-  </details>
+  </details><br>
   
   
-  - The warning shown in the elasticsearch dashboard is due to null fields in the available data. (*Please ignore*)
-  <html><img src="https://user-images.githubusercontent.com/79496726/170841735-33680dc8-cf81-4b3b-a76d-a9dbd5344d05.png", width="250px", height="200px"></html>
+  - **Note:** *Please ignore* the warning shown in the elasticsearch dashboard '*Error restoring state from URL*'. It is due to null fields in the available data.
+
   
  ## Future scope
  
   Well, this absolutely is not the end of this amazing web application. It still has a lot of future scope. <br>
   Future features-
-  - Making the dashboard a live updating dashboard.
-  - Improving the Create Viz feature.
-  - Generating summary points based on graphs
+  - A live updating dashboard.
+  - Advanced Create Viz feature.
+  - Auto Generation of summary points based on graphs
